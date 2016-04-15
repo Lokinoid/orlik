@@ -1,0 +1,11 @@
+.header {
+    margin: 0px;
+    background: transparent;
+    border: none;
+    
+    &.center {
+        position: absolute;
+        margin: 0 auto;
+        
+    }
+}

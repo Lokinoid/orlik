@@ -1,0 +1,39 @@
+.cont {
+    display: block;
+    background-color: $container-bg-color;
+    border-radius: $container-border-radius;
+    box-shadow: $container-shadow;
+
+    .content {
+        background-color: #00ff00;
+        padding: 20px;
+    }
+
+    .content p {
+        @extend %no-spacing;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+
+    .footer p {
+        background-color: #f9fafa;
+        border-radius: 0 0 $container-border-radius $container-border-radius;
+        border-top: $container-footer-top-border;
+        padding: 10px 0px 10px 0px;
+        margin: 0;
+    }
+
+    ul.inline {
+        a {
+            padding: 5px 10px;
+            border-radius: 6px;
+
+            &:hover {
+                background-color: #444;
+                color: #fff;
+            }
+        }
+    }
+}

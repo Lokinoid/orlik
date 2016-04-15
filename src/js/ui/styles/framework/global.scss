@@ -1,0 +1,12 @@
+body {
+    font-family: $body-font-family;
+    font-size: $body-font-size;
+    background-color: $body-bg-color;
+    color: $body-text-color;
+    margin: 0;
+}
+
+a {
+    color: $link-color;
+    font-weight: $link-weight;
+}

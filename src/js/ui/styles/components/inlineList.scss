@@ -1,0 +1,12 @@
+ul.inline {
+    @extend %inline-list;
+    padding-bottom: 10px;
+
+    li {
+        font-size: .9em;
+
+        a {
+            text-decoration: none;
+        }
+    }
+}

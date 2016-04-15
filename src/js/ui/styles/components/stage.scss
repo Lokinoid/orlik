@@ -1,0 +1,17 @@
+
+.stage {
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    
+    .background {
+        position: absolute;
+        width: 100%;
+        background-size: cover;
+    }
+
+    .stage-label {
+        position: absolute;
+    }    
+}
